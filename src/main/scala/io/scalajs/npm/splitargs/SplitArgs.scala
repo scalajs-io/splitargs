@@ -12,6 +12,12 @@ import scala.scalajs.js.annotation.JSImport
 @js.native
 trait SplitArgs extends js.Object {
 
+  /**
+    * Splits the given string into tokens by given separator
+    * except treating quoted part as a single token.
+    * @param string the given string
+    * @return array of tokens
+    */
   def apply(string: String): js.Array[String] = js.native
 
 }
