@@ -1,6 +1,6 @@
 {
-  "name": "splitargs-scalajs",
-  "version": "7.4.0",
+  "name": "splitargs-sjs",
+  "version": "0.0.7",
   "private": true,
   "dependencies": {
     "source-map": "^0.5.6",
