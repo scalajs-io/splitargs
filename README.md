@@ -8,7 +8,7 @@ Splits strings into tokens by given separator except treating quoted part as a s
 
 ### Build Requirements
 
-* [SBT v0.13.13](http://www.scala-sbt.org/download.html)
+* [SBT v0.13.16](http://www.scala-sbt.org/download.html)
 
 
 ### Build/publish the SDK locally
@@ -48,7 +48,7 @@ Assert.deepEqual(args, js.Array("I", "said", "I am sorry.,", "and", "he", "said"
 To add the `SplitArgs` binding to your project, add the following to your build.sbt:  
 
 ```sbt
-libraryDependencies += "io.scalajs.npm" %%% "splitargs" % "0.4.0"
+libraryDependencies += "io.scalajs.npm" %%% "splitargs" % "0.4.1"
 ```
 
 Optionally, you may add the Sonatype Repository resolver:
